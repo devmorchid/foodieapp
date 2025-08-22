@@ -1,0 +1,10 @@
+.navbar {
+  background: linear-gradient(135deg, #ff416c, #ff4b2b);
+  color: white;
+}
+
+.navbar .navbar-brand,
+.navbar .form-control,
+.navbar .icon-btn {
+  color: white; /* Assure que le texte et les icônes restent visibles */
+}
