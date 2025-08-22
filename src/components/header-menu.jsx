@@ -1,6 +1,7 @@
 import React from "react"
 import '../style/header.css'
 
+
 import { useSelector, useDispatch } from "react-redux";
 import { addToCart, removeFromCart } from "../store/cartSlice";
 

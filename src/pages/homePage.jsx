@@ -43,7 +43,7 @@ function Home() {
     <>        
         <NavHero searchTerm={searchTerm} setSearchTerm={setSearchTerm} />    
         <div className="container mt-5">
-            <h1 className="mb-4 text-center">مطاعمنا المميزة 🍽️</h1>
+            <h1 className="mb-4 text-center">Bienvenue sur FoodieApp</h1>
             <div className="row">
                 {filtered.map((r, i) => (
                     <div className="col-md-4 col-sm-6 mb-4" key={i+1}>

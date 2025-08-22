@@ -1,0 +1,27 @@
+.footer-gradient {
+  background: linear-gradient(135deg, #ff4b2b, #ff416c);
+  color: white;
+}
+
+.footer-gradient a {
+  color: white;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.footer-gradient a:hover {
+  color: #ffd6d6;
+  transform: scale(1.2);
+}
+
+/* Responsive: center icons on small screens */
+@media (max-width: 768px) {
+  .footer-gradient .container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-gradient .d-flex {
+    margin-top: 10px;
+  }
+}

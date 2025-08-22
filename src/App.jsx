@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Home from "../src/pages/homePage.jsx";
 import Fav from "../src/pages/fav.jsx";
 import RestaurantMenu from "../src/pages/restaurant-menu.jsx";
+import Footer from "./components/Footer";
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
           <Route path="/liste-favories" element={<Fav />} />
           <Route path="/restaurant/:id" element={<RestaurantMenu />} />
         </Routes>
+        <Footer />
       </Router>
     </>
   )
